@@ -6,67 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-
-    <title>Melka Dawit - 20180754</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="./style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     
+    <title>Melka Dawit - 20180754</title>
+
     <!-- Embedding Vega-Lite -->
-    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@v5.1.1"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark pt-4 pl-4 pe-4 pb-0 mx-auto">
-            <a class="navbar-brand d-flex align-items-center p-0 ms-3" href="#"> 
-                <i class="fa fa-infinity"></i>
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark pt-4 pl-4 pe-4 pb-0 mx-auto">
+            <a class="navbar-brand d-flex align-items-center p-0 ms-3 mb-1 mb-md-4" href="#"> 
+                <i class="bi bi-person-circle p-1"></i>
                 Melka Dawit 
             </a>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#Navbar" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon pb-1"></span>
             </button>
 
             <div class="navbar-collapse collapse" id="Navbar">
-                <ul class="nav navbar-nav">
-                    <li class="nav-item active ms-4 me-4"><a class="nav-link" href="#"> Home </a></li>
+                <ul class="navbar-nav">
+                    <li class="nav-item active ms-4 mb-md-4"><a class="nav-link" href="#"> Home </a></li>
                 </ul>
-                <ul class="nav navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="./contact.html"> Contact </a></li>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item ms-4 mb-md-4"><a class="nav-link" href="./contact.html"> Contact Me</a></li>
                 </ul>
             </div>
 
     </nav>
-    <div class="jumbotron p-0 m-0 bg-transparent">
-        <div class="mb-5 mx-3 mx-md-5 mx-xl-auto">
+
+    <div class="jumbotron pt-3 pt-md-5 pb-md-2 mt-5">
+        <div class="container pt-4 pb-1 pt-md-3  ms-3 mt-md-3">
+            <h1>Hey there!</h1>
+            <h4 class="display-6">Welcome to My Personal Webpage :)</h4>
+            <p style="font-size: 25px; font-weight: 300"> This is an assignment for the course of <span style="cursor: pointer" data-toggle="tooltip" data-placement="right" title="Special Topics in Computer Science: Data Visualization">CS492.</span></p>
+            <hr class="my-4">
+            <p style="font-size: 25px; font-weight: 300"> Bootstrap and Vega-Lite are used in this section.</p>
 
         </div>
     </div>
 
-<!-- 
-        <header class="navbar">            
-        <div id="top_title">
-            <a href="#bg" style="text-decoration: none; color: inherit">Welcome to My Personal Webpage</a>
-        </div>
-    </header>
--->
-
-    <div class="container" style="margin: 8% 10%">
-        <ul>
-            <li>
-                <h2 id="bg" class="sub_headings">Background</h2>
-            </li>
-            <div style="display: flex; margin-left: 3%">
-                <div>
-                    <img src="images/profile_pic1.jpg" alt="Instagram Profile Picture" width="170" hegiht="340">
-                </div>
-                <div>
-                    <table class="my_table">
+    <div class="container p-2 px-md-4 pt-md-4">
+        <section class="row mb-5 pb-md-4 align-items-center">
+            <h2 class="display-5 fw-normal pb-md-2"> Background </h2>
+            <div class="media">
+                <img src="images/profile_pic1.jpg" alt="Profile Picture" class="me-3 d-flex align-self-center rounded float-start" style="width:200px; height:250px">
+                <div class="media-body">
+                    <table class="table table-secondary table-striped my-2" style="width: 77%">
                         <tr>
                             <td class="col_1">Full Name</td>
                             <td>Melka Dawit Legesse</td>
@@ -90,69 +87,95 @@
                     </table>
                 </div>
             </div>
-            <li>
-                <h2 class="sub_headings">Activities</h2>
-                <div style="margin-left: 10px; line-height: 30px">
-                    <ul>
-                        <li>Travelling</li>
-                            <dd><strong>-</strong> This summer I travelled to Jeju and it was an amazing experience.</dd>
-                        <li>Watching Movies</li>
-                            <dd><strong>-</strong> Tell me which genre of tv-shows you like in the <a href="#contact">Contact Me</a> section and I will hit you up with the right recommendations.</dd>
-                    </ul>
+        </section>
+        <section class="row mb-5 pb-md-4 align-items-center">
+            <h2 class="display-5 fw-normal pb-md-2"> Activities </h2>
+            <div class="col-12 col-md-4 w-10 px-md-1">
+                <div class="card">
+                    <img src="images/travelling.jpg" class="card-img-top" alt="Travelling">
+                    <div class="card-body">
+                        <h5 class="card-title display-6" style="font-weight: 600">Travelling</h5>
+                        <p class="card-text">This summer I travelled to Jeju and it was an amazing experience. Everyone should spend a time on the beach every summer.</p>
+                    </div>
                 </div>
-            </li>
-
-            <li>
-                <h2 class="sub_headings">Favourite Websites</h2>
-                <div style="margin-left: 10px; line-height: 30px">
-                    <ul>
-                        <li><a href="https://www.geeksforgeeks.org/" target="_blank">GeeksForGeeks</a></li>
-                        <li><a href="https://jsfiddle.net/" target="_blank">JSFiddle</a></li>
-                        <li><a href="https://www.kaggle.com/" target="_blank">Kaggle</a></li>
-                    </ul>
+            </div>
+            <div class="col-12 col-md-4 w-10 px-md-1">
+                <div class="card">                   
+                    <img src="images/netflix.jpg" class="card-img-top" alt="Netflix">
+                    <div class="card-body">
+                        <h5 class="card-title display-6" style="font-weight: 600">Watching Movies</h5>
+                        <p class="card-text">Tell me which genre of tv-shows you like in the <a href="./contact.html">Contact Me</a> section and I will hit you up with the right recommendations.</p>
+                    </div>
                 </div>
-            </li>
-
-            <li>
-                <h2 id="contact" class="sub_headings">Contact Me</h2>
-                <div style="margin-left: 3%">
-                    <form>
-                  
-                        <label>First Name</label>
-                        <input type="text" placeholder="Your first name...">
-                    
-                        <label>Last Name</label>
-                        <input type="text" placeholder="Your last name...">
-                    
-                        <label>Email</label>
-                        <input type="text" placeholder="Your Email...">
-                    
-                        <label>Subject</label>
-                        <textarea placeholder="Write something..." style="height:200px"></textarea>
-
-                        <input type="checkbox">Can I contact you back?<br><br>
-                        <input type="submit" value="Submit">
-                  
-                    </form>
+            </div>
+            <div class="col-12 col-md-4 w-10 px-md-1">
+                <div class="card">                   
+                    <img src="images/gym.jpg" class="card-img-top" alt="Netflix">
+                    <div class="card-body">
+                        <h5 class="card-title display-6" style="font-weight: 600">Fitness</h5>
+                        <p class="card-text">I have always liked working out and stuggled with maintaining a consistent plan interms of both diet and exercise.</p>
+                    </div>
                 </div>
-            </li>
+            </div>
+        </section>
 
-        </ul>
+        <section class="row mb-5 pb-md-4 align-items-center">
+            <h2 class="display-5 fw-normal pb-md-2"> Favourtie Educational Websites </h2>
+            <div class="ms-5 ms-md-5">
+                <ul>
+                    <li><a href="https://www.geeksforgeeks.org/" target="_blank">GeeksForGeeks</a></li>
+                    <li><a href="https://jsfiddle.net/" target="_blank">JSFiddle</a></li>
+                    <li><a href="https://www.kaggle.com/" target="_blank">Kaggle</a></li>
+                </ul>
+            </div>
+        </section>
 
+        <section class="row mb-5 pb-md-4 align-items-center">
+            <h2 class="display-5 fw-normal pb-md-2"> Courses Taken </h2>
+            <div class="ms-5 ms-md-5">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div id="initial" class="chart w-100 p-3"></div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div id="fixed" class="chart w-100 p-3"></div>
+                    </div>
+                </div>
+
+                <div class="row mx-md-1">
+                    <div class="btn-group offset-sm-2 col-4 offset-md-0 col-md-1">
+                        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Year</button>
+                        <div class="dropdown-menu" id="years"></div>
+                    </div>
+                    
+                    <div class="btn-group col-4 col-md-1">
+                        <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Term</button>
+                        <div class="dropdown-menu" id="terms"></div>
+                    </div>
+                </div> 
+                
+                <div class="row">
+                    <div class="col-12 offset-md-2 col-md-8">
+                        <div id="changing" class="chart w-100 p-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
-    <footer>    
+
+    <footer class="text-center">    
         <div class="social">
             <h6>Follow Me</h6>
-            <a href="https://www.facebook.com/david.legesse.790" target="_blanket"><i class="fa fa-facebook fa-2x"></i></a>
-            <a href="https://twitter.com/akabucha" target="_blanket"><i class="fa fa-twitter fa-2x"></i> </a>
-            <a href="https://www.snapchat.com/add/snap_davidl7?share_id=MEE1MzFG&locale=en_KR" target="_blanket"><i class="fa fa-snapchat-ghost fa-2x"></i> </a>
-            <a href="https://www.instagram.com/david_legesse" target="_blanket"><i class="fa fa-instagram fa-2x"></i> </a>
-            <a href="https://www.linkedin.com/in/david-legesse-993882136?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BOEQgCAA5Ti%2BZNE9gziGfWA%3D%3D" target="_blanket"><i class="fa fa-linkedin fa-2x"></i> </a>
+            <a href="https://www.facebook.com/david.legesse.790" target="_blanket"><i class="bi bi-facebook p-1"></i></a>
+            <a href="https://twitter.com/akabucha" target="_blanket"><i class="bi bi-twitter p-1"></i> </a>
+            <a href="https://www.snapchat.com/add/snap_davidl7?share_id=MEE1MzFG&locale=en_KR" target="_blanket"><i class="bi bi-bell-fill p-1"></i></i> </a>
+            <a href="https://www.instagram.com/david_legesse" target="_blanket"><i class="bi bi-instagram p-1"></i> </a>
+            <a href="https://www.linkedin.com/in/david-legesse-993882136?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BOEQgCAA5Ti%2BZNE9gziGfWA%3D%3D" target="_blanket"><i class="bi bi-linkedin p-1"></i> </a>
             <br>
-            <a href="https://github.com/Kaidavid" target="_blanket"><i class="fa fa-github fa-2x"></i></a>
+            <a href="https://github.com/Kaidavid" target="_blanket"><i class="bi bi-github p-1"></i></a>
         </div>
         <table class="counter">
-            <p style="font-size: x-small; margin: 20px 0 0 70px">Weekly Number of Visits</p>
+            <p style="font-size: x-small; padding:15px; margin:15px">Weekly Number of Visits</p>
             <thead>
                 <tr style="border-bottom: 1px solid rgb(58, 56, 56)">
                     <td>Mon</td>
@@ -176,14 +199,16 @@
                 </tr>
             </tbody>
         </table>
-        </div>
-            <p class="copyright"> Copyright &copy; 2021 All rights reserved. </p>
+        <br><br>
+        </div class="text center">
+            <small class="copyright" style="font-size: 12px"> Copyright &copy; 2021 All rights reserved. </small>
         </div>
     </footer>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./vega.js"></script>
+
 </body>
 </html>

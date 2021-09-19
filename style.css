@@ -4,32 +4,14 @@ body {
     overflow-x: hidden;
 }
 
-.navbar-nav {
-    float: right;
-}
-  
-#top_title {
-    display: flex;
-    font-weight: 500;
-    font-size: 40px;
-    color: #cac9c9; 
-    vertical-align: middle;
-    justify-content: center;
-    align-items: center;
-    line-height: 60px;
-    margin-left: 80px;
-    padding: 5px;
-    font-family: 'Allison', cursive;
-    cursor: pointer
+.jumbotron {
+    background-color: rgb(53, 53, 53);
+    color: rgb(216, 215, 215);
 }
 
-#top_title:hover {
-    color: rgb(172, 176, 182);
-}
-
-.sub_headings {
-    font-family: 'Allison', cursive;
-    font-size: 40px;
+.navbar-toggler:hover {
+    opacity: 0.9;
+    box-shadow: 0px 1px 3px 2px rgba(255, 255, 255, 0.9)
 }
 
 table {
@@ -42,17 +24,10 @@ table td {
     border-right: 1px solid rgb(58, 56, 56);
 }
 
-tr, td {
-    padding: 8px 15px;
-}
-
-tr:nth-child(even) {
-    background-color: gainsboro;
-}
-
 .col_1 {
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
+    width: 60%
 }
 
 ::-webkit-scrollbar {
@@ -64,31 +39,6 @@ tr:nth-child(even) {
 ::-webkit-scrollbar-thumb {
     background: rgb(180, 180, 180);
     border-radius: 3px;
-}
-
-
-input[type=text], textarea {
-    width: 100%;
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical
-}
-  
-input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-  
-input[type=submit]:hover {
-    background-color: #45a049;
 }
   
 .container a, a:focus, a:active {
@@ -104,10 +54,10 @@ footer {
     position: relative;
     height: 500px;
     bottom: 0;
+    left: 0;
     width: 100%;
-    background-color:rgb(20, 20, 20);
+    background-color:#292b2c;
     color: #f2f2f2;
-    text-align: center;
     margin-left: 3px
 }
 
@@ -116,15 +66,11 @@ h6 {
     margin-bottom: 12px;
     font-weight: 500;
     font-size: 40px;
-    text-align: center;
     font-family: 'Allison', cursive;
     letter-spacing: 1px;
 }
 
 .social {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
     padding: 40px;
     padding-bottom: 0px;
     border-top: 1px solid #eee;
@@ -151,14 +97,4 @@ h6 {
 .counter {
     margin: 30px auto auto auto;
     font-size: small;
-}
-
-.copyright {
-    text-align: center;
-    padding-top: 20px;
-    padding-left: 44px;
-    font-weight: 500;
-    opacity: 0.8;
-    font-size: 16px;
-    width: 100%;
 }

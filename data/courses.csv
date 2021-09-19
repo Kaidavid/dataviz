@@ -1,0 +1,54 @@
+﻿Year,Term,Department,Course Code,Course No,Section,Section,Course Title,Lecture,Lab,Credit,AU,Repeat a Course,Course Title in Korean
+2018,Spring,School of Humanities & Social Sciences,10.009,HSS011,D,자선,Intermediate English Reading & Writing,3,0,2.0,0,N,Intermediate English Reading & Writing
+2018,Spring,School of Humanities & Social Sciences,10.022,HSS022,C,교필,English Presentation & Discussion,2,0,1.0,0,N,English Presentation & Discussion
+2018,Spring,School of Humanities & Social Sciences,10.090,HSS090,30,교필,Happy College Life,1,0,0.0,1,N,즐거운 대학생활
+2018,Spring,Physics,20.141,PH141,F,기필,General Physics I,3,1,3.0,0,N,일반물리학 I
+2018,Spring,Physics,20.151,PH151,O,기필,General Physics Lab. I,0,3,1.0,0,N,일반물리학실험Ⅰ
+2018,Spring,Biological Sciences,21.120,BS120,F,기필,General Biology,3,0,3.0,0,N,일반생물학
+2018,Spring,Chemistry,23.101,CH101,C,기필,General Chemistry I,3,0,3.0,0,N,일반화학 I
+2018,Spring,Chemistry,23.102,CH102,AA,기필,General Chemistry Experiment I,0,3,1.0,0,N,일반화학실험 I
+2018,Spring,Department of Mathematical Sciences,25.101,MAS101,F,기필,Calculus 1,3,1,3.0,0,N,미적분학 I
+2018,Fall,School of Humanities & Social Sciences,10.024,HSS024,I,교필,Advanced English Writing,2,0,1.0,0,N,Advanced English Writing
+2018,Fall,School of Humanities & Social Sciences,10.025,HSS025,C,교필,Advanced English Reading,2,0,1.0,0,N,Advanced English Reading
+2018,Fall,School of Humanities & Social Sciences,10.091,HSS091,30,교필,Exciting College Life,1,0,0.0,1,N,신나는 대학생활
+2018,Fall,School of Humanities & Social Sciences,13.147,HSS147, ,인선,Introduction to Sociolinguistics,3,0,3.0,0,N,사회언어학개론
+2018,Fall,Physics,20.142,PH142,B,기필,General Physics II,3,1,3.0,0,N,일반 물리학 II
+2018,Fall,Department of Mathematical Sciences,25.102,MAS102,F,기필,Calculus II,3,1,3.0,0,N,미적분학Ⅱ
+2018,Fall,Department of Mathematical Sciences,25.109,MAS109,G,기선,Introduction to Linear Algebra,3,1,3.0,0,N,선형대수학개론
+2018,Fall,Materials Science and Engineering,34.211,MS211, ,기선,Introduction to Materials Science and Engineering,3,0,3.0,0,N,신소재과학개론
+2018,Fall,School of Computing,36.204,CS204,D,전필,Discrete Mathematics,3,0,3.0,0,N,이산구조
+2019,Spring,School of Humanities & Social Sciences,13.295,HSS295, ,인선,Contemporary Social Theory,3,0,3.0,0,N,현대사회이론
+2019,Spring,Department of Mathematical Sciences,25.201,MAS201,J,기선,Differential Equations and Applications,3,1,3.0,0,N,응용미분방정식
+2019,Spring,Materials Science and Engineering,34.212,MS212, ,전필,Thermodynamics of Materials,3,0,3.0,0,N,소재열역학의 이해
+2019,Spring,Materials Science and Engineering,34.360,MS360, ,전선,Mechanics of Materials,3,0,3.0,0,N,소재역학
+2019,Spring,School of Computing,36.101,CS101,G,기필,Introduction to Programming,2,3,3.0,0,N,프로그래밍기초
+2019,Spring,Chemical and Biomolecular Engineering,39.202,CBE202, ,전필,Introduction to Chemical and Biomolecular Engineering,3,0,3.0,0,N,생명화학공학개론
+2019,Fall,School of Humanities & Social Sciences,13.339,HSS339, ,인선,Human Communication and the Internet,3,0,3.0,0,N,인터넷 커뮤니케이션
+2019,Fall,Materials Science and Engineering,34.213,MS213, ,전필,Crystallography and Diffraction,2,3,3.0,0,N,결정구조 및 회절
+2019,Fall,Materials Science and Engineering,34.310,MS310, ,전필,Quantum Chemistry for Materials Scientists,3,0,3.0,0,N,소재양자화학
+2019,Fall,Materials Science and Engineering,34.354,MS354, ,전선,Electrochemistry for Materials Science,3,0,3.0,0,N,소재전기화학
+2019,Fall,Materials Science and Engineering,34.381,MS381, ,전선,Introduction to Solid State Physics,3,0,3.0,0,N,고체물리개론
+2019,Fall,School of Computing,36.206,CS206,C,전필,Data Structure,3,0,3.0,0,Z,데이타구조
+2019,Fall,Chemical and Biomolecular Engineering,39.201,CBE201, ,전필,Molecular Engineering Laboratory,1,6,3.0,0,N,분자공학실험
+2020,Spring,School of Humanities & Social Sciences,10.172,HSS060,F,교필,Humanity/Leadership I<7H Leadership>,1,0,0.0,1,N,인성/리더십 I<7H Leadership>
+2020,Spring,School of Humanities & Social Sciences,13.143,HSS143, ,인선,Introduction to Contemporary China,3,0,3.0,0,N,현대 중국의 이해
+2020,Spring,Materials Science and Engineering,34.321,MS321, ,전필,Advanced Materials Lab I,1,6,3.0,0,N,신소재실험 I
+2020,Spring,Materials Science and Engineering,34.415,MS415, ,전선,Introduction to Semiconductor Devices,3,0,3.0,0,N,반도체소자개론
+2020,Spring,Materials Science and Engineering,34.421,MS421, ,전선,Introduction to Ceramics,3,0,3.0,0,N,세라믹소재
+2020,Spring,Materials Science and Engineering,34.482,MS482,A,전선,Special Topics in Materials Science and Engineering<Materials Chemistry>,3,0,3.0,0,N,신소재특강<소재화학>
+2020,Spring,School of Computing,36.206,CS206,A,전필,Data Structure,3,0,3.0,0,N,데이타구조
+2020,Fall,School of Humanities & Social Sciences,10.149,HSS157, ,인선,Introduction to Anthropology,3,0,3.0,0,N,인류학의 이해
+2020,Fall,School of Humanities & Social Sciences,10.218,HSS203, ,인선,Environmentalism: A History Survey,3,0,3.0,0,N,환경주의: 역사학적 개론
+2020,Fall,Materials Science and Engineering,34.322,MS322, ,전필,Advanced Materials Lab II,1,6,3.0,0,N,신소재실험II
+2020,Fall,Materials Science and Engineering,34.481,MS481, ,전선,Semiconductor Processing,3,0,3.0,0,N,반도체 공정
+2020,Fall,Materials Science and Engineering,34.495,MS495,BP,연구,Individual Study,0,6,1.0,0,N,개별연구
+2020,Fall,Materials Science and Engineering,34.590,MS590, ,선택,Design of Nanomaterials and Processing,3,0,3.0,0,N,나노소재공정설계
+2020,Fall,School of Computing,36.230,CS230,B,전선,System Programming,3,0,3.0,0,N,시스템프로그래밍
+2020,Fall,School of Computing,36.300,CS300, ,전필,Introduction to Algorithms,3,0,3.0,0,N,알고리즘 개론
+2021,Spring,School of Humanities & Social Sciences,13.053,HSS053,A,교필,Ballet Fit,2,0,0.0,2,N,발레핏
+2021,Spring,School of Humanities & Social Sciences,13.311,HSS311, ,인선,Special Topics in Science of Law<Law and Human Rights>,3,0,3.0,0,N,법학특강<법과 인권>
+2021,Spring,Materials Science and Engineering,34.311,MS311, ,전필,Phase Transformation and Microstructure Evolution,3,0,3.0,0,N,상변화와 미세조직
+2021,Spring,School of Computing,36.311,CS311, ,전필,Computer Organization,3,0,3.0,0,N,전산기조직
+2021,Spring,School of Computing,36.320,CS320, ,전필,Programming Language,3,0,3.0,0,N,프로그래밍언어
+2021,Spring,School of Computing,36.374,CS374, ,전선,Introduction to Human-Computer Interaction,3,1,3.0,0,N,인간-컴퓨터 상호작용 개론
+2021,Spring,School of Computing,36.376,CS376, ,전선,Machine Learning,3,0,3.0,0,N,기계학습
