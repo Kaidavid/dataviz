@@ -61,11 +61,11 @@ $( document ).ready(function() {
             },
             x: {
                 aggregate: "count",
-                title: 'Number of courses from the Dept.',
+                title: 'Number of Courses',
                 type: 'quantitative',
             },
             opacity: {
-                'value': 0.8
+                'value': 1.0
             },
             color: {
                 'value': '#003f5c'
@@ -79,28 +79,31 @@ $( document ).ready(function() {
         data: {"url": "data/courses.csv"},
         mark: "bar",
         width: "container",
-        height: 250,
+        height: 258,
         encoding: {
-          x: {
-            field: "Year",
-            type: "ordinal",
-            title: "Year"
-          },
-          y: {
-            aggregate: "sum",
-            field: "Credit",
-            type: "quantitative",
-            title: "Credits"
-          },
-          color: {
-            field: "Department",
-            type: "nominal",
-            scale: {
-              domain: ["Materials Science and Engineering", "School of Humanities & Social Sciences", "School of Computing", "Department of Mathematical Sciences", "Physics", "Chemistry", "Chemical and Biomolecular Engineering", "Biological Sciences"],
-              range: ["#003f5c", "#2f4b7c", "#665191", "#a05195", "#d45087", "#f95d6a", "#ff7c43", "#ffa600"]
+            x: {
+                field: "Year",
+                type: "ordinal",
+                title: "Year"
             },
-            title: "Departments"
-          }
+            y: {
+                aggregate: "sum",
+                field: "Credit",
+                type: "quantitative",
+                title: "Credits"
+            },
+            color: {
+                field: "Department",
+                type: "nominal",
+                scale: {
+                domain: ["Materials Science and Engineering", "School of Humanities & Social Sciences", "School of Computing", "Department of Mathematical Sciences", "Physics", "Chemistry", "Chemical and Biomolecular Engineering", "Biological Sciences"],
+                range: ["#003f5c", "#2f4b7c", "#665191", "#a05195", "#d45087", "#f95d6a", "#ff7c43", "#ffa600"]
+                },
+                title: "Departments"
+            },
+            opacity: {
+                'value': 1.0
+            },
         },
     }
     
@@ -110,6 +113,7 @@ $( document ).ready(function() {
         data: {
             name: 'myData'
         },
+        title: 'Course Records',
         mark: 'bar',
         width: 'container',
         height: 275,
@@ -132,10 +136,10 @@ $( document ).ready(function() {
                     domain: ["Materials Science and Engineering", "School of Humanities & Social Sciences", "School of Computing", "Department of Mathematical Sciences", "Physics", "Chemistry", "Chemical and Biomolecular Engineering", "Biological Sciences"],
                     range: ["#003f5c", "#2f4b7c", "#665191", "#a05195", "#d45087", "#f95d6a", "#ff7c43", "#ffa600"]
                 },
-                title: "Departments List",
+                title: "Departments",
             },
             opacity: {
-                'value': 0.9
+                'value': 1.0
             },
         },
         autosize: { 
